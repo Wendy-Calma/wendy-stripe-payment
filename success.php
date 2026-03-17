@@ -10,7 +10,7 @@
     <div class="text-center p-5 bg-white shadow rounded"> 
         <h1 class="text-success mb-3">Payment Successful!</h1> 
         <p class="lead mb-4">Thank you for your purchase. The Stripe integration works perfectly.</p> 
-        <a href="index.php" class="btn btn-outline-success">Return to Store</a> 
+        <a href="product.php" class="btn btn-outline-success">Return to Store</a> 
     </div> 
 </body> 
 </html>
