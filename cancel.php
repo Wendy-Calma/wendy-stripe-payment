@@ -10,7 +10,7 @@
 
     <div class="text-center p-5 bg-white shadow rounded">
         <h1 class="text-danger mb-3">Payment Canceled</h1>
-        <p class="lead mb-4">You backed out of the checkout process. No charges were made.</p>
+        <p class="lead mb-4">You may try again.</p>
         <a href="product.php" class="btn btn-outline-danger">Return to Store</a>
     </div>
 
