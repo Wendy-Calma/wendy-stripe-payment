@@ -2,7 +2,7 @@
 require 'config.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST' || empty($_POST['price_id'])) {
-    header('Location: index.php');
+    header('Location: product.php');
     exit;
 }
 
@@ -28,7 +28,7 @@ try {
     echo '<div style="font-family: Arial; padding: 20px; color: red;">';
     echo '<h3>Error creating checkout session</h3>';
     echo '<p>' . $e->getMessage() . '</p>';
-    echo '<a href="index.php">Back to Store</a>';
+    echo '<a href="product.php">Back to Store</a>';
     echo '</div>';
 }
 ?>
